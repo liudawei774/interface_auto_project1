@@ -1,0 +1,50 @@
+-
+  name: 用户登录接口-正常登录
+  request:
+    method: post
+    url: http://localhost:8080/jwshoplogin/user/login.do
+    data:
+      username: 刘婷5
+      password: 123456
+  vaildate: None
+
+-
+  name: 账号为空
+  request:
+    method: post
+    url: http://localhost:8080/jwshoplogin/user/login.do
+    data:
+      username: 刘婷5
+      password: 123456
+  vaildate: None
+
+
+-
+  name: 密码为空
+  request:
+    method: post
+    url: http://localhost:8080/jwshoplogin/user/login.do
+    data:
+      username: 刘婷5
+      password: 123456
+  vaildate: None
+
+-
+  name: 账号不存在
+  request:
+    method: post
+    url: http://localhost:8080/jwshoplogin/user/login.do
+    data:
+      username: 刘婷5213123
+      password: 123456
+  vaildate: None
+
+-
+  name: 账号密码都为空
+  request:
+    method: post
+    url: http://localhost:8080/jwshoplogin/user/login.do
+    data:
+      username:
+      password:
+  vaildate: None

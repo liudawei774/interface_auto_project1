@@ -1,0 +1,21 @@
+-
+  name: 账号不存在
+  request:
+    method: post
+    url: http://localhost:8080/jwshoplogin/user/forget_reset_password.do
+    data:
+      username: 刘婷5213123
+      password: 123456
+      forgetToken: forgettoken
+  vaildate: None
+
+-
+  name: 密码为空
+  request:
+    method: post
+    url: http://localhost:8080/jwshoplogin/user/forget_reset_password.do
+    data:
+      username: 刘婷5213123
+      password:
+      forgetToken: forgettoken
+  vaildate: None

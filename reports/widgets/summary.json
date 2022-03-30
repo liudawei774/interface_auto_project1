@@ -1,0 +1,20 @@
+{
+    "reportName": "接口测试报告",
+    "testRuns": [],
+    "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 2,
+        "unknown": 0,
+        "total": 2
+    },
+    "time": {
+        "start": 1646731012278,
+        "stop": 1646731014345,
+        "duration": 2067,
+        "minDuration": 12,
+        "maxDuration": 2052,
+        "sumDuration": 2064
+    }
+}

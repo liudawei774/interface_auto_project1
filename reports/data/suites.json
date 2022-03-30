@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcases.ldw",
+    "children" : [ {
+      "name" : "test_shop",
+      "children" : [ {
+        "name" : "Test_Mullogin",
+        "children" : [ {
+          "name" : "test_004_tjmbwtda",
+          "uid" : "9a449fb4edc853c",
+          "parentUid" : "a38550d18570febfe45b616f43bebaae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646731012278,
+            "stop" : 1646731014330,
+            "duration" : 2052
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_005_hdwtxgmm",
+          "uid" : "d25f6569cd124d00",
+          "parentUid" : "a38550d18570febfe45b616f43bebaae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646731014333,
+            "stop" : 1646731014345,
+            "duration" : 12
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a38550d18570febfe45b616f43bebaae"
+      } ],
+      "uid" : "cd2f43c8522474514c0acc2f01171196"
+    } ],
+    "uid" : "3f89bf69677e55ec3886615a25b5fc51"
+  } ]
+}

@@ -1,0 +1,42 @@
+Thu, 10 Mar 2022 00:16:01-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '登录成功' == '用户名不存在'
+Thu, 10 Mar 2022 00:16:03-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '登录成功' == '用户名不存在'
+Thu, 10 Mar 2022 00:16:05-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+Thu, 10 Mar 2022 00:16:07-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+Thu, 10 Mar 2022 00:16:10-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+Thu, 10 Mar 2022 00:16:12-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+Thu, 10 Mar 2022 00:22:11-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '登录成功' == '用户名不存在'
+  - 用户名不存在
+  + 登录成功
+Thu, 10 Mar 2022 00:22:13-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '登录成功' == '用户名不存在'
+  - 用户名不存在
+  + 登录成功
+Thu, 10 Mar 2022 00:22:15-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+  - 用户名已经存在
+  + 注册成功
+Thu, 10 Mar 2022 00:22:17-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+  - 用户名已经存在
+  + 注册成功
+Thu, 10 Mar 2022 00:22:19-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+  - 用户名已经存在
+  + 注册成功
+Thu, 10 Mar 2022 00:22:21-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+  - 用户名已经存在
+  + 注册成功
+Thu, 10 Mar 2022 00:23:02-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '登录成功' == '用户名不存在'
+  - 用户名不存在
+  + 登录成功
+Thu, 10 Mar 2022 00:23:04-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '登录成功' == '用户名不存在'
+  - 用户名不存在
+  + 登录成功
+Thu, 10 Mar 2022 00:23:06-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+  - 用户名已经存在
+  + 注册成功
+Thu, 10 Mar 2022 00:23:09-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+  - 用户名已经存在
+  + 注册成功
+Thu, 10 Mar 2022 00:23:11-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+  - 用户名已经存在
+  + 注册成功
+Thu, 10 Mar 2022 00:23:13-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+  - 用户名已经存在
+  + 注册成功

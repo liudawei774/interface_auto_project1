@@ -1,0 +1,231 @@
+Thu, 10 Mar 2022 00:15:55-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:15:55-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：用户登录接口-正常登录
+Thu, 10 Mar 2022 00:15:55-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:15:55-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/login.do
+Thu, 10 Mar 2022 00:15:55-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷5', 'password': 123456}
+Thu, 10 Mar 2022 00:15:55-root-logger_handler.py-[line:123]-INFO-[日志信息]: 响应结果：{'status': 0, 'msg': '登录成功', 'data': {'id': 35, 'username': '刘婷5', 'password': None, 'email': 'liuting5@51testing.com', 'phone': None, 'question': '喜欢吃的水果', 'answer': '香蕉', 'role': 0, 'createTime': 1646750196000, 'updateTime': 1646750196000}}
+Thu, 10 Mar 2022 00:15:57-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:15:57-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：账号为空
+Thu, 10 Mar 2022 00:15:57-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:15:57-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/login.do
+Thu, 10 Mar 2022 00:15:57-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷5', 'password': 123456}
+Thu, 10 Mar 2022 00:15:57-root-logger_handler.py-[line:123]-INFO-[日志信息]: 响应结果：{'status': 0, 'msg': '登录成功', 'data': {'id': 35, 'username': '刘婷5', 'password': None, 'email': 'liuting5@51testing.com', 'phone': None, 'question': '喜欢吃的水果', 'answer': '香蕉', 'role': 0, 'createTime': 1646750196000, 'updateTime': 1646750196000}}
+Thu, 10 Mar 2022 00:15:59-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:15:59-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：密码为空
+Thu, 10 Mar 2022 00:15:59-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:15:59-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/login.do
+Thu, 10 Mar 2022 00:15:59-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷5', 'password': 123456}
+Thu, 10 Mar 2022 00:15:59-root-logger_handler.py-[line:123]-INFO-[日志信息]: 响应结果：{'status': 0, 'msg': '登录成功', 'data': {'id': 35, 'username': '刘婷5', 'password': None, 'email': 'liuting5@51testing.com', 'phone': None, 'question': '喜欢吃的水果', 'answer': '香蕉', 'role': 0, 'createTime': 1646750196000, 'updateTime': 1646750196000}}
+Thu, 10 Mar 2022 00:16:01-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:16:01-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：账号不存在
+Thu, 10 Mar 2022 00:16:01-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:16:01-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/login.do
+Thu, 10 Mar 2022 00:16:01-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷5213123', 'password': 123456}
+Thu, 10 Mar 2022 00:16:01-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '登录成功' == '用户名不存在'
+Thu, 10 Mar 2022 00:16:03-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:16:03-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：账号密码都为空
+Thu, 10 Mar 2022 00:16:03-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:16:03-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/login.do
+Thu, 10 Mar 2022 00:16:03-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': None, 'password': None}
+Thu, 10 Mar 2022 00:16:03-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '登录成功' == '用户名不存在'
+Thu, 10 Mar 2022 00:16:05-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:16:05-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：用户注册接口
+Thu, 10 Mar 2022 00:16:05-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:16:05-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin//user/register.do
+Thu, 10 Mar 2022 00:16:05-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷5', 'password': 123456, 'email': 'liuting5@51testing.com', 'phone"': 13877654567, 'question': '喜欢吃的水果', 'answer': '香蕉'}
+Thu, 10 Mar 2022 00:16:05-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+Thu, 10 Mar 2022 00:16:07-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:16:07-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：用户注册接口
+Thu, 10 Mar 2022 00:16:07-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:16:07-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin//user/register.do
+Thu, 10 Mar 2022 00:16:07-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷11', 'password': None, 'email': 'liuting15@51testing.com', 'phone"': 13877654567, 'question': '喜欢吃的水果', 'answer': '香蕉'}
+Thu, 10 Mar 2022 00:16:07-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+Thu, 10 Mar 2022 00:16:10-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:16:10-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：用户注册接口
+Thu, 10 Mar 2022 00:16:10-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:16:10-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin//user/register.do
+Thu, 10 Mar 2022 00:16:10-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷6', 'password': 123456, 'email': 'liuting6@51testing.com', 'phone"': 13877654567, 'question': '喜欢吃的水果', 'answer': '香蕉'}
+Thu, 10 Mar 2022 00:16:10-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+Thu, 10 Mar 2022 00:16:12-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:16:12-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：用户注册接口
+Thu, 10 Mar 2022 00:16:12-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:16:12-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin//user/register.do
+Thu, 10 Mar 2022 00:16:12-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷7', 'password': 123456, 'email': 'liuting7@51testing.com', 'phone"': 13877654567, 'question': '喜欢吃的水果', 'answer': '香蕉'}
+Thu, 10 Mar 2022 00:16:12-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+Thu, 10 Mar 2022 00:16:14-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:16:14-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：忘记密码提示问题
+Thu, 10 Mar 2022 00:16:14-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:16:14-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/forget_get_question.do
+Thu, 10 Mar 2022 00:16:14-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷5'}
+Thu, 10 Mar 2022 00:16:16-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:16:16-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：用户名不存在
+Thu, 10 Mar 2022 00:16:16-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:16:16-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/forget_get_question.do
+Thu, 10 Mar 2022 00:16:16-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '！@#！'}
+Thu, 10 Mar 2022 00:16:18-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:16:18-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：用户名为空
+Thu, 10 Mar 2022 00:16:18-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:16:18-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/forget_get_question.do
+Thu, 10 Mar 2022 00:16:18-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': None}
+Thu, 10 Mar 2022 00:22:05-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:22:05-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：用户登录接口-正常登录
+Thu, 10 Mar 2022 00:22:05-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:22:05-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/login.do
+Thu, 10 Mar 2022 00:22:05-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷5', 'password': 123456}
+Thu, 10 Mar 2022 00:22:05-root-logger_handler.py-[line:123]-INFO-[日志信息]: 响应结果：{'status': 0, 'msg': '登录成功', 'data': {'id': 35, 'username': '刘婷5', 'password': None, 'email': 'liuting5@51testing.com', 'phone': None, 'question': '喜欢吃的水果', 'answer': '香蕉', 'role': 0, 'createTime': 1646750196000, 'updateTime': 1646750196000}}
+Thu, 10 Mar 2022 00:22:07-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:22:07-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：账号为空
+Thu, 10 Mar 2022 00:22:07-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:22:07-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/login.do
+Thu, 10 Mar 2022 00:22:07-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷5', 'password': 123456}
+Thu, 10 Mar 2022 00:22:07-root-logger_handler.py-[line:123]-INFO-[日志信息]: 响应结果：{'status': 0, 'msg': '登录成功', 'data': {'id': 35, 'username': '刘婷5', 'password': None, 'email': 'liuting5@51testing.com', 'phone': None, 'question': '喜欢吃的水果', 'answer': '香蕉', 'role': 0, 'createTime': 1646750196000, 'updateTime': 1646750196000}}
+Thu, 10 Mar 2022 00:22:09-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:22:09-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：密码为空
+Thu, 10 Mar 2022 00:22:09-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:22:09-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/login.do
+Thu, 10 Mar 2022 00:22:09-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷5', 'password': 123456}
+Thu, 10 Mar 2022 00:22:09-root-logger_handler.py-[line:123]-INFO-[日志信息]: 响应结果：{'status': 0, 'msg': '登录成功', 'data': {'id': 35, 'username': '刘婷5', 'password': None, 'email': 'liuting5@51testing.com', 'phone': None, 'question': '喜欢吃的水果', 'answer': '香蕉', 'role': 0, 'createTime': 1646750196000, 'updateTime': 1646750196000}}
+Thu, 10 Mar 2022 00:22:11-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:22:11-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：账号不存在
+Thu, 10 Mar 2022 00:22:11-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:22:11-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/login.do
+Thu, 10 Mar 2022 00:22:11-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷5213123', 'password': 123456}
+Thu, 10 Mar 2022 00:22:11-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '登录成功' == '用户名不存在'
+  - 用户名不存在
+  + 登录成功
+Thu, 10 Mar 2022 00:22:13-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:22:13-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：账号密码都为空
+Thu, 10 Mar 2022 00:22:13-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:22:13-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/login.do
+Thu, 10 Mar 2022 00:22:13-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': None, 'password': None}
+Thu, 10 Mar 2022 00:22:13-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '登录成功' == '用户名不存在'
+  - 用户名不存在
+  + 登录成功
+Thu, 10 Mar 2022 00:22:15-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:22:15-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：用户注册接口
+Thu, 10 Mar 2022 00:22:15-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:22:15-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin//user/register.do
+Thu, 10 Mar 2022 00:22:15-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷5', 'password': 123456, 'email': 'liuting5@51testing.com', 'phone"': 13877654567, 'question': '喜欢吃的水果', 'answer': '香蕉'}
+Thu, 10 Mar 2022 00:22:15-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+  - 用户名已经存在
+  + 注册成功
+Thu, 10 Mar 2022 00:22:17-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:22:17-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：用户注册接口
+Thu, 10 Mar 2022 00:22:17-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:22:17-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin//user/register.do
+Thu, 10 Mar 2022 00:22:17-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷11', 'password': None, 'email': 'liuting15@51testing.com', 'phone"': 13877654567, 'question': '喜欢吃的水果', 'answer': '香蕉'}
+Thu, 10 Mar 2022 00:22:17-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+  - 用户名已经存在
+  + 注册成功
+Thu, 10 Mar 2022 00:22:19-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:22:19-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：用户注册接口
+Thu, 10 Mar 2022 00:22:19-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:22:19-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin//user/register.do
+Thu, 10 Mar 2022 00:22:19-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷6', 'password': 123456, 'email': 'liuting6@51testing.com', 'phone"': 13877654567, 'question': '喜欢吃的水果', 'answer': '香蕉'}
+Thu, 10 Mar 2022 00:22:19-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+  - 用户名已经存在
+  + 注册成功
+Thu, 10 Mar 2022 00:22:21-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:22:21-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：用户注册接口
+Thu, 10 Mar 2022 00:22:21-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:22:21-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin//user/register.do
+Thu, 10 Mar 2022 00:22:21-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷7', 'password': 123456, 'email': 'liuting7@51testing.com', 'phone"': 13877654567, 'question': '喜欢吃的水果', 'answer': '香蕉'}
+Thu, 10 Mar 2022 00:22:21-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+  - 用户名已经存在
+  + 注册成功
+Thu, 10 Mar 2022 00:22:23-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:22:23-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：忘记密码提示问题
+Thu, 10 Mar 2022 00:22:23-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:22:23-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/forget_get_question.do
+Thu, 10 Mar 2022 00:22:23-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷5'}
+Thu, 10 Mar 2022 00:22:26-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:22:26-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：用户名不存在
+Thu, 10 Mar 2022 00:22:26-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:22:26-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/forget_get_question.do
+Thu, 10 Mar 2022 00:22:26-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '！@#！'}
+Thu, 10 Mar 2022 00:22:28-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:22:28-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：用户名为空
+Thu, 10 Mar 2022 00:22:28-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:22:28-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/forget_get_question.do
+Thu, 10 Mar 2022 00:22:28-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': None}
+Thu, 10 Mar 2022 00:22:56-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:22:56-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：用户登录接口-正常登录
+Thu, 10 Mar 2022 00:22:56-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:22:56-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/login.do
+Thu, 10 Mar 2022 00:22:56-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷5', 'password': 123456}
+Thu, 10 Mar 2022 00:22:56-root-logger_handler.py-[line:123]-INFO-[日志信息]: 响应结果：{'status': 0, 'msg': '登录成功', 'data': {'id': 35, 'username': '刘婷5', 'password': None, 'email': 'liuting5@51testing.com', 'phone': None, 'question': '喜欢吃的水果', 'answer': '香蕉', 'role': 0, 'createTime': 1646750196000, 'updateTime': 1646750196000}}
+Thu, 10 Mar 2022 00:22:58-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:22:58-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：账号为空
+Thu, 10 Mar 2022 00:22:58-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:22:58-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/login.do
+Thu, 10 Mar 2022 00:22:58-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷5', 'password': 123456}
+Thu, 10 Mar 2022 00:22:58-root-logger_handler.py-[line:123]-INFO-[日志信息]: 响应结果：{'status': 0, 'msg': '登录成功', 'data': {'id': 35, 'username': '刘婷5', 'password': None, 'email': 'liuting5@51testing.com', 'phone': None, 'question': '喜欢吃的水果', 'answer': '香蕉', 'role': 0, 'createTime': 1646750196000, 'updateTime': 1646750196000}}
+Thu, 10 Mar 2022 00:23:00-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:23:00-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：密码为空
+Thu, 10 Mar 2022 00:23:00-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:23:00-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/login.do
+Thu, 10 Mar 2022 00:23:00-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷5', 'password': 123456}
+Thu, 10 Mar 2022 00:23:00-root-logger_handler.py-[line:123]-INFO-[日志信息]: 响应结果：{'status': 0, 'msg': '登录成功', 'data': {'id': 35, 'username': '刘婷5', 'password': None, 'email': 'liuting5@51testing.com', 'phone': None, 'question': '喜欢吃的水果', 'answer': '香蕉', 'role': 0, 'createTime': 1646750196000, 'updateTime': 1646750196000}}
+Thu, 10 Mar 2022 00:23:02-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:23:02-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：账号不存在
+Thu, 10 Mar 2022 00:23:02-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:23:02-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/login.do
+Thu, 10 Mar 2022 00:23:02-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷5213123', 'password': 123456}
+Thu, 10 Mar 2022 00:23:02-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '登录成功' == '用户名不存在'
+  - 用户名不存在
+  + 登录成功
+Thu, 10 Mar 2022 00:23:04-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:23:04-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：账号密码都为空
+Thu, 10 Mar 2022 00:23:04-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:23:04-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/login.do
+Thu, 10 Mar 2022 00:23:04-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': None, 'password': None}
+Thu, 10 Mar 2022 00:23:04-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '登录成功' == '用户名不存在'
+  - 用户名不存在
+  + 登录成功
+Thu, 10 Mar 2022 00:23:06-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:23:06-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：用户注册接口
+Thu, 10 Mar 2022 00:23:06-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:23:06-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin//user/register.do
+Thu, 10 Mar 2022 00:23:06-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷5', 'password': 123456, 'email': 'liuting5@51testing.com', 'phone"': 13877654567, 'question': '喜欢吃的水果', 'answer': '香蕉'}
+Thu, 10 Mar 2022 00:23:06-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+  - 用户名已经存在
+  + 注册成功
+Thu, 10 Mar 2022 00:23:09-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:23:09-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：用户注册接口
+Thu, 10 Mar 2022 00:23:09-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:23:09-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin//user/register.do
+Thu, 10 Mar 2022 00:23:09-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷11', 'password': None, 'email': 'liuting15@51testing.com', 'phone"': 13877654567, 'question': '喜欢吃的水果', 'answer': '香蕉'}
+Thu, 10 Mar 2022 00:23:09-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+  - 用户名已经存在
+  + 注册成功
+Thu, 10 Mar 2022 00:23:11-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:23:11-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：用户注册接口
+Thu, 10 Mar 2022 00:23:11-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:23:11-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin//user/register.do
+Thu, 10 Mar 2022 00:23:11-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷6', 'password': 123456, 'email': 'liuting6@51testing.com', 'phone"': 13877654567, 'question': '喜欢吃的水果', 'answer': '香蕉'}
+Thu, 10 Mar 2022 00:23:11-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+  - 用户名已经存在
+  + 注册成功
+Thu, 10 Mar 2022 00:23:13-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:23:13-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：用户注册接口
+Thu, 10 Mar 2022 00:23:13-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:23:13-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin//user/register.do
+Thu, 10 Mar 2022 00:23:13-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷7', 'password': 123456, 'email': 'liuting7@51testing.com', 'phone"': 13877654567, 'question': '喜欢吃的水果', 'answer': '香蕉'}
+Thu, 10 Mar 2022 00:23:13-root-logger_handler.py-[line:129]-ERROR-[日志信息]: 用例执行失败：assert '注册成功' == '用户名已经存在'
+  - 用户名已经存在
+  + 注册成功
+Thu, 10 Mar 2022 00:23:15-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:23:15-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：忘记密码提示问题
+Thu, 10 Mar 2022 00:23:15-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:23:15-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/forget_get_question.do
+Thu, 10 Mar 2022 00:23:15-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '刘婷5'}
+Thu, 10 Mar 2022 00:23:17-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:23:17-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：用户名不存在
+Thu, 10 Mar 2022 00:23:17-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:23:17-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/forget_get_question.do
+Thu, 10 Mar 2022 00:23:17-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': '！@#！'}
+Thu, 10 Mar 2022 00:23:19-root-logger_handler.py-[line:123]-INFO-[日志信息]: ****************************************************************************************
+Thu, 10 Mar 2022 00:23:19-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口用例名称：用户名为空
+Thu, 10 Mar 2022 00:23:19-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口请求方法：post
+Thu, 10 Mar 2022 00:23:19-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口url地址：http://localhost:8080/jwshoplogin/user/forget_get_question.do
+Thu, 10 Mar 2022 00:23:19-root-logger_handler.py-[line:123]-INFO-[日志信息]: 接口测试数据：{'username': None}

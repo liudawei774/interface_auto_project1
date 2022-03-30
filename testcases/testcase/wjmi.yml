@@ -1,0 +1,26 @@
+-
+  name: 忘记密码提示问题
+  request:
+    method: post
+    url: http://localhost:8080/jwshoplogin/user/forget_get_question.do
+    data:
+      username: 刘婷5
+  vaildate: None
+
+-
+  name: 用户名不存在
+  request:
+    method: post
+    url: http://localhost:8080/jwshoplogin/user/forget_get_question.do
+    data:
+      username: ！@#！
+  vaildate: None
+
+-
+  name: 用户名为空
+  request:
+    method: post
+    url: http://localhost:8080/jwshoplogin/user/forget_get_question.do
+    data:
+      username:
+  vaildate: None

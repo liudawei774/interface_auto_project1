@@ -1,0 +1,97 @@
+{
+  "uid" : "d25f6569cd124d00",
+  "name" : "test_005_hdwtxgmm",
+  "fullName" : "testcases.ldw.test_shop.Test_Mullogin#test_005_hdwtxgmm",
+  "historyId" : "1aaaf0763f540dd4752f940a8b9304c6",
+  "time" : {
+    "start" : 1646731014333,
+    "stop" : 1646731014345,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1646731012212,
+      "stop" : 1646731012277,
+      "duration" : 65
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1646731012277,
+      "stop" : 1646731012277,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.ldw"
+  }, {
+    "name" : "suite",
+    "value" : "test_shop"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Mullogin"
+  }, {
+    "name" : "host",
+    "value" : "LIUDAWEI"
+  }, {
+    "name" : "thread",
+    "value" : "33660-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.ldw.test_shop"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5bf9f73a36d91473",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646730935178,
+        "stop" : 1646730935199,
+        "duration" : 21
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "d25f6569cd124d00.json",
+  "parameterValues" : [ ]
+}
