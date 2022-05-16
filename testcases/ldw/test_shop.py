@@ -1,5 +1,6 @@
 import os
 
+import allure
 import pytest
 
 from common.request_util import requestsUtil
@@ -71,6 +72,8 @@ class Test_Mullogin():
         logger.info('接口url地址：{}'.format(url))
         logger.info('接口测试数据：{}'.format(userinfo))
 
+    @allure.description("测试http://calapi.51jirili.com/dream/categoryList接口")
+    @allure.testcase("http://calapi.51jirili.com/dream/categoryList", "测试用例地址👇")
     @pytest.mark.test
     def test_004_tjmbwtda(self, conn_connert):
         url = "http://localhost:8080/jwshoplogin/user/forget_check_answer.do"
@@ -89,7 +92,8 @@ class Test_Mullogin():
         # 把返回的json字典中的data存到yaml文件里
         yamlUtil().write_yaml_nt('testcases/testcase', {'data': response['data']})
         # assert 'data' in response.json()
-
+    @allure.description("测试http://calapi.51jirili.com/dream/categoryList接口")
+    @allure.testcase("http://www.baidu.com", "测试用例地址👇")
     @pytest.mark.smoke
     def test_005_hdwtxgmm(self):
         url = "http://localhost:8080/jwshoplogin/user/forget_reset_password.do"
@@ -102,12 +106,3 @@ class Test_Mullogin():
         # 发送忘记密码请求并获取响应
         response = requestsUtil().send_request('post', url, data=userinfo)
         print(response)
-
-
-if __name__ == '__main__':
-    pytest.main()
-    os.system('allure generate temp -o reports --clean')
-
-    w = JsonAlter()
-    the_revised_dict = w.get_json_data('接口测试报告')
-    w.write_json_data(the_revised_dict)
