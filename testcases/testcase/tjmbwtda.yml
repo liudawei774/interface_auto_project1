@@ -1,55 +1,13 @@
 -
-  name: 用户注册接口
-  request:
-    method: post
-    url: http://localhost:8080/jwshoplogin//user/register.do
-    data:
-      username: 刘婷5
-      password: 123456
-      email: liuting5@51testing.com
-      phone": 13877654567
-      question: 喜欢吃的水果
-      answer: 香蕉
-  vaildate: None
-
--
-  name: 用户注册接口
-  request:
-    method: post
-    url: http://localhost:8080/jwshoplogin//user/register.do
-    data:
-      username: 刘婷11
-      password:
-      email: liuting15@51testing.com
-      phone": 13877654567
-      question: 喜欢吃的水果
-      answer: 香蕉
-  vaildate: None
-
--
-  name: 用户注册接口
-  request:
-    method: post
-    url: http://localhost:8080/jwshoplogin//user/register.do
-    data:
-      username: 刘婷6
-      password: 123456
-      email: liuting6@51testing.com
-      phone": 13877654567
-      question: 喜欢吃的水果
-      answer: 香蕉
-  vaildate: None
-
--
-  name: 用户注册接口
-  request:
-    method: post
-    url: http://localhost:8080/jwshoplogin//user/register.do
-    data:
-      username: 刘婷7
-      password: 123456
-      email: liuting7@51testing.com
-      phone": 13877654567
-      question: 喜欢吃的水果
-      answer: 香蕉
-  vaildate: None
+  requestName: CreateDevice
+  MasterKey: 86a3fbf305c9427d965678f471680499
+  body:
+    deviceName: "string"
+    deviceSn: string
+    imei: 123112331313222
+    operator: string
+    other:
+      autoObserver: 0
+      imsi: 12435154878421
+      pskValue: "ADvNWlkcNq9AfKnk"
+    productId: 15190067
