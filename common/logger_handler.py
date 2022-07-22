@@ -12,11 +12,11 @@ if not os.path.exists(log_path):
 
 log_colors_config = {
     # 终端输出日志颜色配置
-    'DEBUG': 'white',
-    'INFO': 'cyan',
+    'DEBUG': 'cyan',
+    'INFO': 'green',
     'WARNING': 'yellow',
     'ERROR': 'red',
-    'CRITICAL': 'bold_red',
+    'CRITICAL': 'red',
 }
 
 default_formats = {
@@ -155,4 +155,8 @@ class HandleLog:
 
 logger = HandleLog()
 if __name__ == '__main__':
-    pass
+    logger.info('dsads')
+    logger.debug('dsads')
+    logger.warning('dsads')
+    logger.error('dsads')
+    logger.critical('dsads')
